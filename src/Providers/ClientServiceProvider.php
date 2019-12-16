@@ -17,7 +17,7 @@ class ClientServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->publishes([__DIR__.'/../../config/auth.php' => config_path("sdk.php")], "sdk");
+        $this->publishes([__DIR__.'/../../config/sdk.php' => config_path("sdk.php")], "sdk");
     }
 
     /**
