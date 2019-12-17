@@ -103,7 +103,7 @@ class BaseSdk
         }
 
         $params['app_id'] = $config['app_id'];
-        $params['sign_type'] = $config['sign_type'];
+        $params['sign_type'] = strtolower($config['sign_type']);
 
         ksort($params);
 
