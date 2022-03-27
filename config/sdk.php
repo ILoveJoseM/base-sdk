@@ -1,6 +1,7 @@
 <?php
 
 return [
+    "middlewares" => [],
     "auth" => [
         "app_id" => "",
         "app_secret" => "",
